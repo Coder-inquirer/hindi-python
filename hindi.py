@@ -47,7 +47,19 @@ hindi_func={
         'range':'लड़ी'
     }
 
-hindi_dict={**hindi_kw,**hindi_func}
+hindi_numerals={
+        '0':'०',
+        '1':'१',
+        '2':'२',
+        '3':'३',
+        '4':'४',
+        '5':'५',
+        '6':'६',
+        '7':'७',
+        '8':'८',
+        '9':'९',
+}
+hindi_dict={**hindi_kw,**hindi_func,**hindi_numerals}
 inv_hindi_dict=inv_dict = dict(map(reversed, hindi_dict.items()))
 ##print(hindi_dict,inv_hindi_dict)
 
